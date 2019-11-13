@@ -7,7 +7,7 @@ import './App.css'
 function App() {
 	return (
 		<div className='App'>
-			<Player playsInline src='test.webm' />
+			<Player startTime={0} playsInline src='test.webm' /> 
 		</div>
 	)
 }
